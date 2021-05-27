@@ -1,0 +1,107 @@
+/* Big text */
+.main_text {
+    font-weight: 700;
+    font-size: 69px;
+    margin: 20px 0 20px 0;
+}
+
+/* Main  */
+.frame-main {
+    height: 100%;
+    margin: 0 15% 0 15%;
+    background-color: var(--sub_background);
+}
+
+.text-frame-main {
+    margin: 20px 10% 0 10%;
+}
+/* Variables */
+.variables {
+    padding: 0 50px 0 50px;
+    background-color: var(--main_background_variables);
+    margin-bottom: 20px;
+}
+
+
+tr >  td:nth-child(2) {
+    padding-left: 20px;
+
+}
+
+td {
+    height: 27px;
+}
+
+
+/* Buttons */
+.buttons-frame-main {
+    padding: 5px 0 5px 0;
+    width: 100%;
+    background-color: var(--main_background_buttons);
+    height: 35px;
+}
+
+.button {
+    color: var(--button_text);
+    float: left;
+    width: 15%;
+    background-color: var(--button);
+    height: 100%;
+    transition: 0.4s;
+}
+
+.button:hover {
+    color: var(--button_text_hover);
+    box-shadow: 0px 0px 5px 1px var(--button_hover);
+    background-color: var(--button_hover);
+}
+
+/* Output */
+.textarea-holder {
+    width: 100%;
+    height: auto;
+}
+
+.textarea-holder > textarea {
+    resize: none;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: auto;
+    width: 100%;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    text-align-last: center;
+}
+
+textarea {
+    background-color: #455a64;
+    border: 0;
+    color: var(--main_text)
+}
+
+.output {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+/* Download button */
+.dwn-button {
+    color: var(--button_text);
+    font-size: larger;
+    background-color: white;
+    background-color: var(--button);
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    width: 250px;
+    height: 70px;
+    transition: 0.4s;
+    display: none;
+}
+
+.dwn-button:hover {
+    color: var(--button_text_hover);
+    box-shadow: 0px 0px 5px 1px var(--button_hover);
+    background-color: var(--button_hover);
+}
