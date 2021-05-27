@@ -105,3 +105,11 @@ textarea {
     box-shadow: 0px 0px 5px 1px var(--button_hover);
     background-color: var(--button_hover);
 }
+
+.unselectable {
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
